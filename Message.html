@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>A Blog To Remember</h1> 
+        </div>   
+    </header>
+
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Film.html">Films/Television</a></li>
+                <li><a href="Comics.html">Comics</a></li>
+                <li><a href="Games.html">Games</a></li>
+                <li><a href="Literature.html">Literature</a></li>
+                <li><a href="Offbeat.html">Offbeat</a></li>
+            </ul> 
+        </div> 
+    </nav>
+
+    <form class="message-admin" action="process.php" method= "POST">
+        <div>
+            <Label>Name</Label>
+            <input type= "text" name="Name"
+            placeholder="Enter name">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type= "email" name="email"
+            placeholder="Enter email">
+        </div>
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea rows="10" name="Message">Enter Message</textarea>
+        </div>
+        <button>submit</a></button>
+    </form>
+    <br>
+    <footer id="main-footer">
+        <p>Copyright &copy; 2021 A Blog to Remember</p>
+    </footer>
+</body>
+</html>

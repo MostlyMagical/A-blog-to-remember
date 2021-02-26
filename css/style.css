@@ -1,0 +1,185 @@
+body{
+    background-color: #3d3d3d;
+    background-image: url(../images/Sample\ image\ 5.jpg);
+    image-resolution: 1080px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font: normal 16px arial, helvetica, sans-serif;
+}
+
+/* body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+} */
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover{
+    color:azure;
+}
+
+.message-admin{
+    width: 40%;
+    color: #fff;
+}
+
+.message-admin input{
+    width: 100%;
+    
+}
+
+.message-admin textarea{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    float: center;
+    text-align: center;
+}
+
+.container img{
+    float: center;
+}
+
+#main-header{
+    background-color: rgb(152, 0, 182);
+    color: #fff;
+    margin: 0;
+}
+
+#main-header-2{
+    background-color: rgb(160, 25, 25);
+    color: #fff;
+}
+
+#main-header-3{
+    background-color: rgb(54, 173, 252);
+    color: #fff;
+}
+
+#main-header-4{
+    background-color: rgb(3, 13, 160);
+    color: #fff;
+}
+
+#main-header-5{
+    background-color: rgb(248, 99, 29);
+    color: #fff;
+}
+
+#main-header-6{
+    background-color: rgb(68, 163, 4);
+    color: #fff;
+}
+
+#navbar{
+    background-color: #333;
+    color: #fff;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+/* #showcase{
+    background-image:url('../images/Sample\ image.jpg');
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center; */
+}
+
+#showcase{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#main{
+    color: #fff;
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    background: rgba(51, 51, 51, 0.521);
+    margin-top: 0px;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: #333;
+    color: #fff;
+    padding: 0 28px;
+    box-sizing: border-box;
+}
+
+#doom-thumbnail{
+    align-items: center;
+}
+
+#Doom-preview{
+    color: #fff;
+    background: rgba(51, 51, 51, 0.63);
+}
+
+#Thanos-preview{
+    color: #fff;
+    background: rgba(51, 51, 51, 0.63);
+}
+
+#Sidekick-preview{
+    color: #fff;
+    background: rgba(51, 51, 51, 0.63);
+}
+
+#False-advertising-preview{
+    color: #fff;
+    background: rgba(51, 51, 51, 0.63);
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    align-self: flex-end;
+}
+
+@media(max-width: 600px){
+    #main{
+        width: 100%;
+        float:none
+    }
+
+    #sidebar{
+        width: 100%;
+        float:none
+    }
+}
